@@ -1,6 +1,6 @@
 import { IsNotEmpty, IsNumber, IsPhoneNumber, IsString } from 'class-validator';
 
-export class CreateRequestOrder {
+export class CreateOrderRequest {
   @IsString()
   @IsNotEmpty()
   name: string;
